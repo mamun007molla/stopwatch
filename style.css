@@ -1,0 +1,49 @@
+body{
+    background-color: #84e880;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    flex-direction: column;
+    
+}
+
+.buttons button{
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    
+
+}
+#Start{
+    background-color: #eb450e;
+    
+}
+#Start:hover{
+    background-color: #440ddb;
+    color: #fff;
+}
+#Stop{
+    background-color: #f7b801;
+}
+#Stop:hover{
+    background-color: #0b9963b1;
+    color: #fff;
+}
+#Reset{
+    background-color: #f436de;
+}
+#Reset:hover{
+    background-color: #4d990bb1;
+    color: #fff;
+}
+#timer{
+    font-size: 45px;
+    margin-bottom: 15px;
+    
+}
